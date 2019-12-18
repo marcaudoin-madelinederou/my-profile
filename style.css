@@ -1,0 +1,259 @@
+body {
+  background-color: #ced3dd ;
+  color: rgb(20,20,20);
+  font-family: 'Lato', sans-serif;
+  font-size: 19px;
+  line-height: 1.1;
+  letter-spacing: 3px;
+  font-weight: 100
+}
+@media (max-width: 720px) {
+  body {
+    font-size: 15px;
+    letter-spacing: 4px;
+    line-height: 1.3;
+  }
+}
+@media (max-width: 580px) {
+  body {
+    font-size: 13px;
+    letter-spacing: 4px;
+    line-height: 1.6;
+  }
+}
+
+h1, h2, h3 {
+  color: #003296;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 45px;
+  line-height: 1.6;
+  letter-spacing: 5px;
+  font-weight: 100;
+}
+@media (max-width: 720px) {
+  h1,h2,h3 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 580px) {
+  h1,h2,h3 {
+    font-size: 37px;
+  }
+}
+
+a {
+  color: #133984;
+  font-family: 'Fjalla One', sans-serif;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 12px;
+}
+@media (max-width: 720px) {
+  a {
+    font-size: 8px;
+  }
+}
+@media (max-width: 580px) {
+  a {
+    font-size: 6px;
+  }
+}
+a:hover {
+  color: #0e1f3f;
+  text-decoration: none;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+@media (max-width: 720px) {
+  .container {
+    width: 530px;
+  }
+}
+@media (max-width: 580px) {
+  .container {
+    width: 450px;
+  }
+}
+
+.card-white {
+  background: white;
+  padding: 20px 30px;
+  margin: 25px 0px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 7px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left:0px;
+  padding-right:40px;
+  margin: 25px;
+}
+@media (max-width: 720px) {
+  .list-inline {
+    padding-right: 4px;
+    margin: 15px;
+  }
+}
+@media (max-width: 580px) {
+  .list-inline {
+    padding-right: 2px;
+    margin: auto;
+  }
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 70px;
+  color: #0b317c;
+}
+.list-inline i:hover {
+  color: #0e1e3f;
+}
+.logo-size60 {
+  font-size : 60px;
+}
+
+a.btn-blue {
+padding: 12px 10px;
+background: #133984;
+color: #FFFFFF;
+border-radius: 4px;
+}
+@media (max-width: 720px) {
+  a.btn-blue {
+    padding: 8px 7px;
+  }
+}
+@media (max-width: 540px) {
+  a.btn-blue {
+    padding: 6px 4px;
+  }
+}
+a.btn-blue:hover {
+background: rgb(150,150,150);
+color: #000000;
+font-weight: bold;
+}
+
+.golfphoto-size {
+  width:250px;
+  border-radius: 3px;
+}
+@media (max-width: 720px) {
+  .golfphoto-size {
+    width: 180px;
+    border-radius: 3px;
+  }
+}
+@media (max-width: 580px) {
+  .golfphoto-size {
+    width: 120px;
+    border-radius: 3px;
+  }
+}
+
+.sidebar {
+  position: fixed;
+  width: 200px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+@media (max-width: 720px) {
+  .sidebar {
+    width: 150px;
+  }
+}
+@media (max-width: 580px) {
+  .sidebar {
+    width: 100px;
+  }
+}
+.page-content {
+  margin-left: 100px;
+}
+@media (max-width: 720px) {
+  .page-content {
+    margin-left: 70px;
+  }
+}
+@media (max-width: 580px) {
+  .page-content {
+    margin-left: 60px;
+  }
+}
+.sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+  line-height: 6;
+  margin: 30px;
+}
+@media (max-width: 720px) {
+  .sidebar ul {
+    margin: 20px;
+  }
+}
+@media (max-width: 580px) {
+  .sidebar ul {
+    margin: 10px;
+  }
+}
+a.btnsidebar {
+padding: 12px 10px;
+color: #FFFFFF;
+border-radius: 0;
+}
+@media (max-width: 720px) {
+  a.btnsidebar {
+    padding: 8px 7px;
+  }
+}
+@media (max-width: 580px) {
+  a.btnsidebar {
+    padding: 6px 4px;
+  }
+}
+a.btnsidebar :hover {
+background: rgb(150,150,150);
+color: #000000;
+font-weight: bold;
+}
+#btnsidebar1 {
+  background-color: #004fef
+}
+#btnsidebar2 {
+  background-color: #0047d6
+}
+#btnsidebar3 {
+  background-color: #0039ad
+}
+#btnsidebar4 {
+  background-color: #002e8c
+}
+#btnsidebar5 {
+  background-color: #002266
+}
+
+#profile {
+  width: 150px;
+  border-radius: 50%;
+}
+@media (max-width: 720px) {
+  #profile {
+    width: 120px;
+    border-radius: 50%;
+  }
+}
+@media (max-width: 580px) {
+  #profile {
+    width: 100px;
+    border-radius: 50%;
+  }
+}
